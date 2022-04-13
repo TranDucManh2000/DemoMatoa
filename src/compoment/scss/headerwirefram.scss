@@ -1,0 +1,166 @@
+.header{
+    width: 80%;
+    background-color: #F1DDC9;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Taviraj', serif;
+    margin-top: 80px;
+    .imglock{
+        width: 33%;
+        height: 447px;
+        background-image: url('../img/image\ 6.svg');
+        margin-top: 8%;
+        background-size: cover cover;
+        background-repeat: no-repeat;
+        // background-color: aquamarine;
+    }
+    .textheader{
+        width: 48%;
+        height: 100%;
+        // background-color: aquamarine;
+        h1{
+            font-size: 60px;
+        }
+        p{
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+        }
+        .hrT40{
+            margin-top: -40px;
+        }
+        h3{
+            font-size: 16px;
+        }
+        .hrT20{
+            margin-top: -10px;
+            width: 60px;
+        }
+        .btn{
+            width: 100%;
+            display: flex;
+            margin-top: 50px;
+            button{
+                margin-right: 20px;
+                font-size: 20px;
+                min-width: 140px;
+            }
+            .btnwrite{
+                background-image: url('../img/Asset\ 759hdpi.svg');
+                background-size: cover cover;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: center;
+            }
+        }
+    }
+    .nexheader{
+        width: 17%;
+        height: 100%;
+        // background-color: rgb(210, 127, 255);
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        button{
+            position: absolute;
+            bottom: -25px;
+        }
+        .btnred{
+            width: 50px;
+            margin-right: -80px;
+            height: 50px;
+            background-image: url('../img/Vector\ 2.svg');
+            background-size: cover cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+        }
+        .btnwrite{
+            height: 50px;
+            width: 50px;
+            margin-right: 80px;
+            background-image: url('../img/Vector\ 1.svg');
+            background-size: cover cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+        }
+    }
+    .vectorbar{
+        position: absolute;
+        margin-top: -30px;
+        .vecto1{
+            position: absolute;
+            width: 39em;
+            height: 300px;
+            background-image: url('../img/Vector\ 12.svg');
+            // background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover cover cover cover;
+        }
+        .vecto2{
+            position: absolute;
+            width: 39em;
+            height: 300px;
+            background-image: url('../img/Vector\ 13.svg');
+            // background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover cover cover cover;
+            margin-top: 45px;
+        }
+        .vecto3{
+            position: absolute;
+            width: 39em;
+            height: 300px;
+            background-image: url('../img/Vector\ 14.svg');
+            // background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: cover cover cover cover;
+            margin-top: 90px;
+        }
+    }
+}
+
+.headeritem{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Taviraj', serif;
+    margin-top: 120px;
+    .maxwick{
+       max-width: 320px;
+        .nunito{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        color: #777777;
+        }
+   }
+    .boxitem{
+        padding: 10px;
+        width: 47%;
+        height: 270px;
+        background-color: #fff;
+        position: relative;
+        p{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 16px;
+        }
+        hr{
+            margin-top: -10px;
+        }
+        .img{
+            width: 350px;
+            height: 150px;
+            // background-color: aqua;
+            position: absolute;
+            right: 10px;
+            bottom: 0;
+            background-image: url('../img/image\ 7.svg');
+            background-repeat: no-repeat;
+            background-size: cover cover;
+            background-position-x: right;
+        }
+    }
+}

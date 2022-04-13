@@ -1,0 +1,92 @@
+.in4wire{
+    width: 80%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .shadowimg{
+        width: 30em;
+        height: 280px;
+        background-color: #F1DDC9;
+        position: absolute;
+        left: 0;
+    }
+    .in4text{
+        width: 45%;
+        height: 500px;
+        // background-color: aquamarine;
+        h2{
+            font-size: 36px;
+        }
+        hr{
+            margin-top: -20px;
+        }
+        p{
+            font-size: 16px;
+            font-family: 'Nunito', sans-serif;
+            color: #333333;
+            margin-top: 50px;
+        }
+        h3{
+            font-size: 24px;
+            margin-top: 50px;
+        }
+        .textconten{
+            color: #777777;
+            margin-top: -20px;
+            font-size: 16px;
+        }
+    }
+    .in4img{
+        width: 45%;
+        height: 500px;
+        z-index: 2;
+        // background-color: rgb(127, 255, 159);
+        .img{
+            margin-top: 80px;
+            width: 100%;
+            height: 280px;
+            background-image: url('../img/image\ 24.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        button{
+            background-color: rgba(240, 248, 255, 0);
+            border: none;
+            margin-top: 30px;
+        }
+        .frombtn{
+            display: flex;
+            align-items: center;
+            .btnlef{
+                color: #999999;
+                font-size: 25px;      
+            }
+            .btnright{
+                font-size: 35px;
+            }
+        }
+      
+    }
+    .intagram{
+        width: 100%;
+        h1{
+            font-size: 36px;
+        }
+        hr{
+            margin-top: -18px;
+        }
+        .boximg{
+            width: 100%;
+            display: flex;
+            .img{
+                width: 20%;
+                background-image: url('../img/Rectangle\ 38.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 200px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

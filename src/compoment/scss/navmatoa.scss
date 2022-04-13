@@ -1,0 +1,36 @@
+.navmatoas{
+    width: 80%;
+    margin-top: 20px;
+    max-height: 50px;
+    // background-color: aqua;
+    font-family: 'Taviraj', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        background-image: url('../img/image\ 5.svg');
+        width: 178px;
+        height: 22px;
+    }
+    .textnav{
+        display: flex;
+        p{
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    .itemnav{
+        display: flex;
+        p{
+            font-size: 18px;
+            margin: 10px;
+        }
+        button{
+            background-color: #F1DDC9;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+        }
+    }
+}

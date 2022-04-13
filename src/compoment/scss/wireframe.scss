@@ -1,0 +1,30 @@
+.wireframe{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    flex-wrap: wrap;
+    font-family: 'Taviraj', serif;
+    height: auto;
+    hr{
+        background-color: black;
+        width: 95px;
+        float: left;
+        height: 1px;
+        border: none;
+    }
+    .btnred{
+        background-color: #D84727;
+        color: #fff;
+        height: 50px;
+        width: auto;
+        border: 1px solid #D84727;
+        padding: 10px;
+    }
+    .btnwrite{
+        background-color: rgba(255, 255, 255, 0);
+        color: #D84727;
+        height: 50px;
+        border: 1px solid #D84727;
+        padding: 10px;
+    }
+}

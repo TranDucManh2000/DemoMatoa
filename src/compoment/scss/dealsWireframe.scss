@@ -1,0 +1,70 @@
+.dealswireframe{
+    margin-top: 50px;
+    width: 80%;
+    font-family: 'Taviraj', serif;
+    h1{
+        font-size: 36px;
+    }
+    hr{
+        margin-top: -10px;
+    }
+    .boxitem{
+        width: 100%;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        .item{
+            width: 24%;
+            height: 400px;
+            background-color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .img{
+                background-image: url('../img/image\ 9.png');
+                width: 80%;
+                height: 220px;
+                margin-top: -20px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .text{
+                width: 80%; 
+                p{
+                    font-size: 16px;
+                    color: #777777;
+                }
+                span{
+                    font-size: 16px;
+                    text-decoration: line-through solid #D93F3F;
+                }
+                h3{
+                    font-size: 24px;
+                }
+            }
+            .boxbtn{
+                display: none;
+            }
+            &:hover{
+                line-height: 10px;
+                .boxbtn{
+                    display: flex;
+                    width: 80%;
+                    // background-color: #D93F3F;
+                    button{
+                        height: 30px;
+                        margin-right: 15px;
+                        font-size: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .btnwrite{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.headerproduc{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    .linkproduc{
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+        p{
+            font-size: 16px;
+            span{
+                color: #D84727;
+            }
+        }
+    }
+    .boxproduc{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: space-between;
+        .producshadow{
+            position: absolute;
+            width: 30em;
+            height: 480px;
+            background-color: #F1DDC9;
+            left: 0;
+        }
+        .itemimg{
+            width: 48%;
+            // background-color: #D84727;
+            height: 480px;
+            display: flex;
+            justify-content: space-between;
+            z-index: 2;
+            .miniimg{
+                width: 22%;
+                height: 100%;
+                // background-color: aqua;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .bigimg{
+                width: 70%;
+                height: 100%;
+                // background-color: rgb(64, 0, 255);
+                background-image: url('../img/image\ 6.svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .itemtext{
+            width: 48%;
+            h1{
+                font-size: 60px;
+            }
+            .rp{
+                text-decoration: line-through solid #D93F3F;
+                font-size: 20px;
+                color: #777777;
+                margin-top: -30px;
+            }
+            h2{
+                font-size: 24px;
+            }
+            h3{
+                font-size: 16px;
+            }
+            .boxcolor{
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                .coloritem{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-image: url('../img/image\ 38.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-right: 15px;
+                }
+            }
+            .boxbtn{
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+                align-items: center;
+                justify-content: space-between;
+                .btnexcept{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #fff;
+                    color: #777777;
+                    font-size: 16px;
+                    border: 1px solid #777777;
+                }
+                .btnplus{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #D84727;
+                    color: #fff;
+                    font-size: 16px;
+                    border: none;
+                }
+                span{
+                    font-size: 36px;
+                    font-weight: bold;
+                    margin: 15px;
+                }
+               .divbtn{
+                   display: flex;
+                .btnredd{
+                    display: flex;
+                    font-size: 20px;
+                    border: 1px solid #D84727;
+                    background-color: #D84727;
+                    color: #fff;
+                    height: 50px;
+                    min-width: 180px;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                }
+                .btnwritee{
+                    margin-left: 10px;
+                    font-size: 20px;
+                    min-width: 120px;
+                    background-image: url('../img/Asset\ 759hdpi.svg');
+                    background-size: cover cover;
+                    background-repeat: no-repeat;
+                    background-position-x: center;
+                    background-position-y: center;
+                    background-color: rgba(255, 255, 255, 0);
+                    color: #D84727;
+                    height: 50px;
+                    border: 1px solid #D84727;
+                }
+               }
+            }
+        }
+    }
+}

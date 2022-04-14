@@ -1,8 +1,8 @@
 import React from 'react'
 import DealsWireframe from '../common/DealsWireframe'
-import FooterWire from '../common/FooterWire'
 import HeaderWireframe from '../common/HeaderWireframe'
 import In4wireframe from '../common/In4wireframe'
+import MatoaFooter from '../common/MatoaFooter'
 import NavMatoa from '../common/NavMatoa'
 import Newswire from '../common/Newswire'
 import '../scss/wireframe.scss'
@@ -15,7 +15,7 @@ const Wireframe = () => {
       <DealsWireframe/>
       <Newswire/>
       <In4wireframe/>
-      <FooterWire/>
+      <MatoaFooter/>
     </div>
   )
 }

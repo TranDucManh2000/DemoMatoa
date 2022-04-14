@@ -1,0 +1,86 @@
+.relateproduct{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+    .relate{
+        width: 100%;
+        h1{
+            font-size: 36px;
+        }
+        hr{
+            margin-top: -20px;
+        }
+    }
+    .boxitem{
+        width: 24%;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 390px;
+        transition: transform .2s; /* Animation */
+        margin-bottom: 40px;
+        .item{
+            display: flex;
+            width: 100%;
+            background-color: #fff;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            .btnsale{
+                font-size: 16px;
+                background-color: #D84727;
+                color: #fff;
+                border: 1px solid #D84727;
+                height: 30px;
+                min-width: 110px;
+                position: absolute;
+                right: 10%;
+                margin-top: -10px;
+            }
+            .img{
+                background-image: url('../img/image\ 41.png');
+                width: 90%;
+                height: 220px;
+                margin-top: 40px;
+            }
+            .textitem{
+                width: 90%;
+                h2{
+                    font-size: 24px;
+                    line-height: 24px;
+                }
+                span{
+                    text-decoration: line-through solid #D93F3F;
+                    color: #777777;
+                    font-size: 16px;
+                }
+            }
+            .boxbtnproduc{
+                display: none;
+            }
+            &:hover{
+                height: 420px;
+                .boxbtnproduc{
+                    display: flex;
+                    width: 90%;
+                    // background-color: #D93F3F;
+                    button{
+                        height: 30px;
+                        margin-right: 15px;
+                        font-size: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .btnwrite{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

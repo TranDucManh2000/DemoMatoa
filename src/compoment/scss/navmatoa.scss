@@ -26,11 +26,16 @@
             margin: 10px;
         }
         button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: #F1DDC9;
             width: 40px;
             height: 40px;
             border-radius: 50%;
             border: none;
+            margin-top: 4px;
+            color: black;
         }
     }
 }

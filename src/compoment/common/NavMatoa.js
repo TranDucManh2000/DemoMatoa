@@ -5,6 +5,7 @@ import {
   UserOutlined,
   ShoppingOutlined,
 } from '@ant-design/icons';
+import MatoaCart from '../commoncart/MatoaCart';
 
 const NavMatoa = () => {
   return (
@@ -19,7 +20,7 @@ const NavMatoa = () => {
       <div className='itemnav'>
         <p><SearchOutlined /></p>
         <p><UserOutlined /> Log In</p>
-        <button><ShoppingOutlined style={{fontSize:'18px'}}/></button>
+        <MatoaCart/>
       </div>
     </div>
   )

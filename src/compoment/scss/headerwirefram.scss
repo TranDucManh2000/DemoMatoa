@@ -67,7 +67,7 @@
         }
         .btnred{
             width: 50px;
-            margin-right: -80px;
+            margin-right: -60px;
             height: 50px;
             background-image: url('../img/Vector\ 2.svg');
             background-size: cover cover;
@@ -78,7 +78,7 @@
         .btnwrite{
             height: 50px;
             width: 50px;
-            margin-right: 80px;
+            margin-right: 60px;
             background-image: url('../img/Vector\ 1.svg');
             background-size: cover cover;
             background-repeat: no-repeat;
@@ -89,6 +89,7 @@
     .vectorbar{
         position: absolute;
         margin-top: -30px;
+        display: none;
         .vecto1{
             position: absolute;
             width: 39em;

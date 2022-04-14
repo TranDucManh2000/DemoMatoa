@@ -1,0 +1,110 @@
+.matoacart{
+    width: 100%;
+    font-family: 'Taviraj', serif;
+    // background-color: aquamarine;
+    .boxitem{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        .line{
+            height: 1px;
+            background-color: #999999;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .itemlef{
+            display: flex;
+            justify-content: space-between;
+            .img{
+                width: 180px;
+                height: 180px;
+                background-color: #F1DDC9;
+                background-image: url('../img/imageproduc41.png');
+                background-repeat: no-repeat;
+                background-size: cover cover;
+                background-position: center;
+            }
+            .text{
+                margin-left: 20px;
+                max-height: 180px;
+                h2{
+                    font-size: 20px;
+                }
+                span{
+                    text-decoration: line-through solid #D93F3F;
+                    color: #777777;
+                    font-size: 16px;
+                }
+                h1{
+                    font-size: 24px;
+                }
+                p{
+                    color: #555555;
+                    font-size: 16px;
+                }
+            }
+        }
+        .itemright{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            justify-content: flex-end;
+            max-width: 350px;
+            align-items: center;
+            h2{
+                font-size: 16px;
+                font-weight: bolder;
+            }
+            .select{
+                span{
+                    color: #999999;
+                }
+            }
+            .btnrp{
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+                align-items: center;
+                justify-content: space-between;
+                .btnexcept{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #fff;
+                    color: #777777;
+                    font-size: 16px;
+                    border: 1px solid #777777;
+                }
+                .btnplus{
+                    width: 30px;
+                    height: 30px;
+                    background-color: #D84727;
+                    color: #fff;
+                    font-size: 16px;
+                    border: none;
+                }
+                span{
+                    font-size: 36px;
+                    font-weight: bold;
+                    margin: 15px;
+                }
+                h1{
+                    font-size: 24px;
+                    margin: 20px;
+                    font-weight: bold;
+                }
+                .btndelet{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 30px;
+                    height: 30px;
+                    color: #D93F3F;
+                    background-color: #77777700;
+                    border: 1px solid #D93F3F;
+                }
+            }
+        }
+    }
+}

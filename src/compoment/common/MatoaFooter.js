@@ -8,38 +8,48 @@ import {
   YoutubeFilled,
   TwitterSquareFilled,
 } from "@ant-design/icons";
+import img25 from '../img/image 25.png'
+import img26 from '../img/image 26.png'
+import img27 from '../img/image 27.png'
+import img28 from '../img/image 28.png'
+import img29 from '../img/image 29.png'
+import img32 from '../img/image 32.png'
+import img33 from '../img/image 33.png'
+import img34 from '../img/image 34.png'
+import img35 from '../img/image 35.png'
+import img36 from '../img/image 36.png'
 
-const FooterWire = () => {
+const MatoaFooter = () => {
   const datalogo = [
     {
-      url: "",
+      url: img25,
     },
     {
-      url: "",
+      url: img26,
     },
     {
-      url: "",
+      url: img27,
     },
     {
-      url: "",
+      url: img28,
     },
     {
-      url: "",
+      url: img29,
     },
     {
-      url: "",
+      url: img32,
     },
     {
-      url: "",
+      url: img33,
     },
     {
-      url: "",
+      url: img34,
     },
     {
-      url: "",
+      url: img35,
     },
     {
-      url: "",
+      url: img36,
     },
   ];
   return (
@@ -47,7 +57,7 @@ const FooterWire = () => {
       <div className="boxlogo">
         <div className="boxitem">
           {datalogo.map((vl, index) => (
-            <div className="item" key={index}></div>
+            <div style={{backgroundImage:`url("${vl.url}")`}} className="item" key={index}></div>
           ))}
         </div>
       </div>
@@ -56,7 +66,7 @@ const FooterWire = () => {
         <div className="boxtext">
           <div className="textitem">
             <div className="logomatoa"></div>
-            <h2>Address</h2>
+            <h2 style={{marginTop:'20px'}}>Address</h2>
             <p style={{lineHeight:'30px'}}>
               Store & Office Jl. Setrasari Kulon III, No. 10-12, Sukarasa,
               Sukasari, Bandung, Jawa Barat, Indonesia 40152
@@ -113,4 +123,4 @@ const FooterWire = () => {
   );
 };
 
-export default FooterWire;
+export default MatoaFooter;

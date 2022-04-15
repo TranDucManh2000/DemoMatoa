@@ -1,0 +1,42 @@
+.checkout{
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .step{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        .stepchecckout{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            span{
+                position: absolute;
+                bottom: 30px;
+                display: flex;
+                justify-content: center;
+                color: #999999;
+                font-size: 34px;
+            }
+            h1{
+                font-size: 24px;
+                color: #999999;
+            }
+        }
+    }
+    .line{
+        width: 110px;
+        color: black;
+        height: 1px;
+        background-color: black;
+        margin-top: 24px;
+    }
+    .onetab{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

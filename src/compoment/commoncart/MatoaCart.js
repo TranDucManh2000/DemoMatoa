@@ -3,6 +3,7 @@ import { Modal, Button } from "antd";
 import { ShoppingOutlined, DeleteOutlined } from "@ant-design/icons";
 import "../cartscss/matoacart.scss";
 import { Select } from "antd";
+import { Input } from 'antd';
 
 const MatoaCart = () => {
   const { Option, OptGroup } = Select;
@@ -72,9 +73,6 @@ const MatoaCart = () => {
                       </Option>
                       <Option value="lucy">Lucy</Option>
                     </OptGroup>
-                    <OptGroup label="Engineer">
-                      <Option value="Yiminghe">yiminghe</Option>
-                    </OptGroup>
                   </Select>
                 </div>
                 <div className="btnrp">
@@ -92,6 +90,21 @@ const MatoaCart = () => {
               <span className="line"></span>
             </div>
           ))}
+          <div className="cartfooter">
+            <div className="kode">
+              <h2>Kode Promo</h2>
+              <Input value={'INDONESIA'}></Input>
+              <h1>35% OFF</h1>
+            </div>
+            <div className="total">
+             <div><h2>Subtotal</h2></div>
+             <div>
+             <span>Rp 1.500.000</span>
+             <h1>Rp 2.152.000</h1>
+             </div>
+            </div>
+            <button>Checkout</button>
+          </div>
         </div>
       </Modal>
     </div>

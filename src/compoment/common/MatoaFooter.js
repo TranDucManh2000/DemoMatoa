@@ -123,4 +123,4 @@ const MatoaFooter = () => {
   );
 };
 
-export default MatoaFooter;
+export default MatoaFooter

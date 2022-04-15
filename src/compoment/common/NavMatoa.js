@@ -26,4 +26,4 @@ const NavMatoa = () => {
   )
 }
 
-export default NavMatoa
+export default NavMatoa;

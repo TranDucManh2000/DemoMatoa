@@ -14,8 +14,9 @@
         display: flex;
         justify-content: space-between;
         .item{
+            position: relative;
             width: 24%;
-            height: 360px;
+            height: 350px;
             background-color: #fff;
             display: flex;
             flex-wrap: wrap;
@@ -46,26 +47,30 @@
                 }
             }
             .boxbtn{
-                display: none;
+               position: absolute;
+               opacity: 0;
+               display: flex;
+               width: 100%;
+               height: 40px;
+               background-color: #fff;
+               bottom: -40px;
+               button{
+                   height: 30px;
+                   margin-right: 15px;
+                   font-size: 16px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+               }
+               .btnwrite{
+                   height: 30px;
+                   width: 30px;
+                   margin-left: 5%;
+               }
             }
             &:hover{
-                height: 390px;
                 .boxbtn{
-                    display: flex;
-                    width: 90%;
-                    // background-color: #D93F3F;
-                    button{
-                        height: 30px;
-                        margin-right: 15px;
-                        font-size: 16px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                    .btnwrite{
-                        height: 30px;
-                        width: 30px;
-                    }
+                    opacity: 1;
                 }
             }
         }

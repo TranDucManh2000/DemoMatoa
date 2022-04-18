@@ -46,7 +46,7 @@ const MatoaFooter = () => {
       url: img34,
     },
     {
-      url: img35,
+      url: img28,
     },
     {
       url: img36,

@@ -1,11 +1,11 @@
 import React from "react";
 import "../scss/dealsWireframe.scss";
 import { HeartOutlined } from "@ant-design/icons";
-import img10 from '../img/image10.png';
-import img9 from '../img/image 9.png';
-import img11 from '../img/image11.png';
-import img12 from '../img/image12.png';
-
+import img10 from "../img/image10.png";
+import img9 from "../img/image 9.png";
+import img11 from "../img/image11.png";
+import img12 from "../img/image12.png";
+import { Link } from "react-router-dom";
 
 const DealsWireframe = () => {
   const mapdeal = [
@@ -33,7 +33,10 @@ const DealsWireframe = () => {
       <div className="boxitem">
         {mapdeal.map((vl, index) => (
           <div className="item" key={index}>
-            <div className="img" style={{backgroundImage:`url(${vl.img})`}}></div>
+            <Link className="img" to={"/product"}>
+              <div style={{ backgroundImage: `url(${vl.img})` }}></div>
+            </Link>
+
             <div className="text">
               <h2>{vl.name}</h2>
               <p>20% Off</p>

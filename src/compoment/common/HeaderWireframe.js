@@ -20,7 +20,7 @@ const HeaderWireframe = () => {
           <hr className="hrT20" />
           <div className="btn">
             <button className="btnred">
-              <ShoppingCartOutlined /> Add to cart
+              <ShoppingCartOutlined style={{marginRight:'10px'}}/> Add to cart
             </button>
             <button className="btnwrite"></button>
           </div>

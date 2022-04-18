@@ -1,0 +1,110 @@
+.onconfirm{
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    .oder{
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        flex-wrap: wrap;
+        .boxoder{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .boximg{
+                background-image: url('../img/undraw_completing_6bhr\ 1.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 80%;
+                height: 240px;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 16px;
+                font-family: 'Nunito', sans-serif;
+                text-align: center;
+                width: 80%;
+                margin-bottom: 40px;
+            }
+            button{
+                width: 250px;
+                margin-bottom: 40px;
+                font-size: 20px;
+            }
+        }
+    }
+    .confirmbild{
+        width: 49%;
+        background-color:  #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .bilditem{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            .boxicon{
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                span{
+                    text-align: left;
+                    // background-color: aqua;
+                    font-size: 16px;
+                    font-family: 'Nunito', sans-serif;
+                }
+            }
+            .textitem{
+                line-height: 15px;
+                h2{
+                    font-size: 20px;
+                    width: 100%;
+                }
+                p{
+                    font-size: 16px;
+                    width: 100%;
+                    color: #777777;
+                }
+            }
+            .itemtotal{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                h2{
+                    width: 50%;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                h1{
+                    font-size: 36px;
+                    font-weight: bold;
+                    width: 50%;
+                }
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 20px;
+                    width: 50%;
+                }
+            }
+        }
+        hr{
+            width: 90%;
+            color: #999999;
+            height: 0.5px;
+            border: none;
+            float: right;
+        }
+    }
+    
+}

@@ -28,4 +28,16 @@
         border: 1px solid #D84727;
         padding: 10px;
     }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }

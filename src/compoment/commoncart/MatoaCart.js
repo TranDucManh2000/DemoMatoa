@@ -3,7 +3,8 @@ import { Modal, Button } from "antd";
 import { ShoppingOutlined, DeleteOutlined } from "@ant-design/icons";
 import "../cartscss/matoacart.scss";
 import { Select } from "antd";
-import { Input } from 'antd';
+import { Input } from "antd";
+import { Link } from "react-router-dom";
 
 const MatoaCart = () => {
   const { Option, OptGroup } = Select;
@@ -33,6 +34,8 @@ const MatoaCart = () => {
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+
+  const checkout = () => {};
 
   return (
     <div>
@@ -93,17 +96,23 @@ const MatoaCart = () => {
           <div className="cartfooter">
             <div className="kode">
               <h2>Kode Promo</h2>
-              <Input value={'INDONESIA'}></Input>
+              <Input value={"INDONESIA"}></Input>
               <h1>35% OFF</h1>
             </div>
             <div className="total">
-             <div><h2>Subtotal</h2></div>
-             <div>
-             <span>Rp 1.500.000</span>
-             <h1>Rp 2.152.000</h1>
-             </div>
+              <div>
+                <h2>Subtotal</h2>
+              </div>
+              <div>
+                <span>Rp 1.500.000</span>
+                <h1>Rp 2.152.000</h1>
+              </div>
             </div>
-            <button>Checkout</button>
+            <button onClick={() => checkout()}>
+              <Link style={{ color: "#fff" }} to={"/checkout"}>
+                Checkout
+              </Link>
+            </button>
           </div>
         </div>
       </Modal>
